@@ -16,9 +16,11 @@ document.addEventListener('DOMContentLoaded', function() {
             const users = data.users.find(user => user.username === username && user.password === password);
 
             if (users) {
-                alert("Usuario logado com sucesso");
+                document.body.style.backgroundColor = "#57ff56";
+                alert("Bem vindo, usuário");
             } else {
-                alert("Usuario ou senha incorretos, tente novamente mais tarde!");
+                document.body.style.backgroundColor = "#ff5556";
+                alert("Login ou senha incorreto, tente novamente mais tarde");
             }
         } catch (error) {
             console.log("Erro: ", error);
