@@ -2,15 +2,18 @@
     "users": [
         {
             "username": "admin",
-            "password": "password"
+            "password": "password",
+            "blocked": false
         },
         {
             "username": "tasi",
-            "password": "tasi123"
+            "password": "tasi123",
+            "blocked": false
         },
         {
             "username": "ferro",
-            "password": "ferro123"
+            "password": "ferro123",
+            "blocked": false
         }
     ]
 }
